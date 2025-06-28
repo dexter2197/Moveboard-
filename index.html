@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>moveboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moveboard</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>🎬 Moveboard</h1>
-  <p>Welcome to your movie downloader app!</p>
+    <h1>🎬 Moveboard</h1>
+    <div class="movie-list">
+        <div class="movie">
+            <h2>Sample Movie 1</h2>
+            <img src="thumbnail1.jpg" alt="Movie 1 Thumbnail">
+            <a href="sample1.mp4" download onclick="return confirmDownload()">Download</a>
+        </div>
+        <div class="movie">
+            <h2>Sample Movie 2</h2>
+            <img src="thumbnail2.jpg" alt="Movie 2 Thumbnail">
+            <a href="sample2.mp4" download onclick="return confirmDownload()">Download</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
