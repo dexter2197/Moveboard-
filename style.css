@@ -42,3 +42,9 @@ a {
     border: 3px solid #00bcd4;
     margin-bottom: 20px;
 }
+
+.note {
+    font-size: 0.8em;
+    color: #aaa;
+    margin-top: 5px;
+}
